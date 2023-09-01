@@ -21,11 +21,9 @@ backup_if_exists ~/.bash_profile
 backup_if_exists ~/.bashrc
 backup_if_exists ~/.vimrc
 backup_if_exists ~/.config/nvim/init.vim
-backup_if_exists ~/.config/nvim/init.lua
 
 # Create symlinks
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/dotfiles/.aliases ~/.aliases
-ln -s ~/dotfiles/init.lua ~/.config/nvim/init.lua
